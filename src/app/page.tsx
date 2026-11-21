@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Home(){return <main className="shell"><section className="panel"><h1>WorkSphere</h1><p className="muted">A responsive, role-based project workspace.</p><p>Assessment 01 demonstrates App Router structure, role-specific navigation, protected routes, reusable validated forms and safe error states.</p><Link href="/login">Open sign in</Link></section></main>}
